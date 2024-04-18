@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.label_box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  max-width:500px;
+  width: 100%;
+}
+
+.title_h2 {
+  text-align: center;
+  font-size: 42px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid blue;
+  padding:15px;
+  text-align: left;
+}
+
+input:hover {
+  border: 1px solid blue;
+}
+
+
+form {
+  max-width: 600px;
+  background-color: rgba(241, 240, 240, 0.466);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  text-align: center;
+  padding: 15px;
+  border: 0.5px solid #e3e0e0;
+
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+.table td {
+  background-color: #f9f9f976;
+}
+nav{
+  background-color: #f2f2f2;
+  margin-bottom: 30px;
+}
+.ul_lists{ 
+  height: 55px;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  row-gap: 5px;
+}
+.ul_lists a{
+  text-decoration: none;
+}
+
